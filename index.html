@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"><!--Conexion a bootstrap 3.1.0-->
+	<link rel="stylesheet" type="text/css" href="css\estilos.css">
+	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:700,400italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,900' rel='stylesheet' type='text/css'>
+	<link type="image/x-icon" href="imagenes\icon.ico" rel="icon" /> 
+	<metaname="viewport"content="width=device-width, initial-scale=1">
+	<title>Modulo-X</title>
+</head>
+<body>
+	<div class="container-fluid">
+	<header class="row">
+		<div class="col-md-8 col-sm-6 col-xs-12">
+			<img id="logotipo" src="imagenes/logotipo.jpg">
+		</div>
+		<div class="col-md-4 col-sm-6 col-xs-12">
+			<a class="btn btn-default" role="button" href="entrar.html">ENTRAR</a>
+			<a class="btn btn-success btn-lg" role="button" href="registro.html">REGISTRO</a>
+		</div>	
+		
+	</header>
+	</div>
+	<div class="container">
+		<nav class="center-block">
+		<div class="row" >               <!--Linea para poner foto y nombre del usuario-->
+			<section class="col-xs-2 col-sm-8 col-md-8"></section>
+			<section class="col-xs-8 col-sm-2 col-md-1">
+				<a href="perfil.html"><img src="imagenes\foto.jpg" id="fotoperfil" class="img-circle" alt="imagen responsive"></a>
+			</section>
+			<section class="col-xs-12 col-sm-2 col-md-2">
+				<header>
+					<h1 class="IndieFlower">Ramon Guerrero</h1>
+				</header>
+			</section>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-8">
+				<label>Marca</label>
+				<select name="Marca" class="form-control">
+					<option value="0">Elige una marca</option>
+					<option>Nissan</option>
+					<option>Chervolet</option>
+					<option>Volk</option>
+					<option>Toyota</option>
+					<option>Dodge</option>
+					<option>Honda</option>
+					<option>Audi</option>
+					<option>Bmw</option>
+					<option>Mercedez</option>
+					<option>Renault</option>
+					<option>Mazda</option>
+					<option>Volvo</option>
+					<option>Jaguar</option>
+					<option>Algun otro</option>
+				</select>
+		
+				<label>Modelo</label>
+				<select name="Modelo" class="form-control">
+					<option value="0">Elige un modelo</option>
+				</select>
+			</div>
+
+			<div class="col-xs-12 col-sm-3 col-md-4">
+				<label>Año Desde</label>
+				<select name="Año Desde" class="form-control">
+				<option value="0" type="date">Año desde</option>
+				<option>1990</option>
+				<option>1991</option>
+				<option>1992</option>
+				<option>1993</option>
+				<option>1994</option>
+				<option>1995</option>
+				<option>1996</option>
+				<option>1997</option>
+				<option>1998</option>
+				<option>1999</option>
+				<option>2000</option>
+				<option>2001</option>
+				<option>2002</option>
+				<option>2003</option>
+				<option>2004</option>
+				<option>2005</option>
+				<option>2006</option>
+				<option>2007</option>
+				<option>2008</option>
+				<option>2009</option>
+				<option>2010</option>
+				<option>2011</option>
+				<option>2012</option>
+				<option>2013</option>
+				<option>2014</option>
+				<option>2015</option>
+			</select>
+
+			<label>Año Hasta</label>
+			<select name="Año Hasta" class="form-control" type="date">
+				<option value="0">Año hasta</option>
+				<option>1990</option>
+				<option>1991</option>
+				<option>1992</option>
+				<option>1993</option>
+				<option>1994</option>
+				<option>1995</option>
+				<option>1996</option>
+				<option>1997</option>
+				<option>1998</option>
+				<option>1999</option>
+				<option>2000</option>
+				<option>2001</option>
+				<option>2002</option>
+				<option>2003</option>
+				<option>2004</option>
+				<option>2005</option>
+				<option>2006</option>
+				<option>2007</option>
+				<option>2008</option>
+				<option>2009</option>
+				<option>2010</option>
+				<option>2011</option>
+				<option>2012</option>
+				<option>2013</option>
+				<option>2014</option>
+				<option>2015</option>
+			</select>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-2">
+				<select name="Precio" class="form-control">
+				<option value="0">Precio $</option>
+				<option>1      -  1,000</option>
+				<option>1,001  -10,000</option>
+				<option>10,001 -20,000</option>
+				<option>20,001 -30,000</option>
+				<option>30,001 -40,000</option>
+				<option>40,001 -50,001</option>
+				<option>50,001 -100,000</option>
+				<option>100,001-mas</option>
+			</select>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-8">
+				<input type="search" class="form-control" placeholder="Buscar Titulo de Auto"> 
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4">
+				<button type="buttom" class="btn btn-info">Buscar</button>
+			</div>		
+		</div>
+		</nav>
+
+		<div class="row">               <!--fila para dividir el contenedor-->
+			<div class="col-xs-12 col-sm-3 col-md-2">
+				<aside id="asideregistro">						<!--Columna derecha de la fila mayor-->
+				<figure>
+					<img src="imagenes/logotipo.jpg" class="logotipo">
+				</figure>
+					<h2 class="josefin">Compras Conocedoras</h2>
+				<a class="btn btn-success" role="button" href="registro.html">Registrate</a>
+				</aside>
+			</div>
+			
+			<div class="col-xs-12 col-sm-8 col-md-10">							<!--Columna central de la fila mayor-->
+				<section id="anuncios">
+					<article class="row">
+						<figure class="col-xs-12 col-sm-6 col-md-6">
+								<img src="imagenes usuario\audi.jpg" class="img-rounded">
+						</figure>
+						<header class="col-xs-12 col-sm-6 col-md-4">	
+							<h1>Titulo de Anuncio</h1>
+						</header>
+						<div class="row">
+							<div class="col-xs-6 col-sm-3 col-md-3">
+								<label for="precio">Precio $</label>
+								<input type="text" name="precio" value="150,900" readonly="true" class="form-control">
+								<label for="marca">Marca</label>
+								<input type="text" name="marca" value="Audi" readonly="true" class="form-control">
+								<label for="modelo">Modelo</label>
+								<input type="text" name="modelo" value="RS 7" readonly="true" class="form-control">
+							</div>
+							
+							<div class="col-xs-6 col-sm-3 col-md-3">
+								<label for="año">Año</label>
+								<input type="text" name="año" value="2013" readonly="true" class="form-control">
+								<label for="descri">Descripcion</label>
+								<textarea name="descri" class="form-control" readonly="true">Audi 6 velocidades turbo el mas lujoso</textarea>
+							</div>
+						</div>						
+					</article>
+					<hr color="tranparent"/>
+
+					<article class="row">
+						<figure class="col-xs-12 col-sm-6 col-md-6">
+								<img src="imagenes usuario\audi.jpg" class="img-rounded">
+						</figure>
+						<header class="col-xs-12 col-sm-6 col-md-4">	
+							<h1>Titulo de Anuncio</h1>
+						</header>
+						<div class="row">
+							<div class="col-xs-6 col-sm-3 col-md-3">
+								<label for="precio">Precio $</label>
+								<input type="text" name="precio" value="150,900" readonly="true" class="form-control">
+								<label for="marca">Marca</label>
+								<input type="text" name="marca" value="Audi" readonly="true" class="form-control">
+								<label for="modelo">Modelo</label>
+								<input type="text" name="modelo" value="RS 7" readonly="true" class="form-control">
+							</div>
+							
+							<div class="col-xs-6 col-sm-3 col-md-3">
+								<label for="año">Año</label>
+								<input type="text" name="año" value="2013" readonly="true" class="form-control">
+								<label for="descri">Descripcion</label>
+								<textarea name="descri" class="form-control" readonly="true">Audi 6 velocidades turbo el mas lujoso</textarea>
+							</div>
+						</div>						
+					</article>
+					<hr color="tranparent"/>
+
+					<article class="row">
+						<figure class="col-xs-12 col-sm-6 col-md-6">
+								<img src="imagenes usuario\audi.jpg" class="img-rounded">
+						</figure>
+						<header class="col-xs-12 col-sm-6 col-md-4">	
+							<h1>Titulo de Anuncio</h1>
+						</header>
+						<div class="row">
+							<div class="col-xs-6 col-sm-3 col-md-3">
+								<label for="precio">Precio $</label>
+								<input type="text" name="precio" value="150,900" readonly="true" class="form-control">
+								<label for="marca">Marca</label>
+								<input type="text" name="marca" value="Audi" readonly="true" class="form-control">
+								<label for="modelo">Modelo</label>
+								<input type="text" name="modelo" value="RS 7" readonly="true" class="form-control">
+							</div>
+							
+							<div class="col-xs-6 col-sm-3 col-md-3">
+								<label for="año">Año</label>
+								<input type="text" name="año" value="2013" readonly="true" class="form-control">
+								<label for="descri">Descripcion</label>
+								<textarea name="descri" class="form-control" readonly="true">Audi 6 velocidades turbo el mas lujoso</textarea>
+							</div>
+						</div>						
+					</article>
+					<hr color="tranparent"/>
+
+					<article class="row">
+						<figure class="col-xs-12 col-sm-6 col-md-6">
+								<img src="imagenes usuario\audi.jpg" class="img-rounded">
+						</figure>
+						<header class="col-xs-12 col-sm-6 col-md-4">	
+							<h1>Titulo de Anuncio</h1>
+						</header>
+						<div class="row">
+							<div class="col-xs-6 col-sm-3 col-md-3">
+								<label for="precio">Precio $</label>
+								<input type="text" name="precio" value="150,900" readonly="true" class="form-control">
+								<label for="marca">Marca</label>
+								<input type="text" name="marca" value="Audi" readonly="true" class="form-control">
+								<label for="modelo">Modelo</label>
+								<input type="text" name="modelo" value="RS 7" readonly="true" class="form-control">
+							</div>
+							
+							<div class="col-xs-6 col-sm-3 col-md-3">
+								<label for="año">Año</label>
+								<input type="text" name="año" value="2013" readonly="true" class="form-control">
+								<label for="descri">Descripcion</label>
+								<textarea name="descri" class="form-control" readonly="true">Audi 6 velocidades turbo el mas lujoso</textarea>
+							</div>
+						</div>						
+					</article>
+					<hr color="tranparent"/>
+
+					<article class="row">
+						<figure class="col-xs-12 col-sm-6 col-md-6">
+								<img src="imagenes usuario\audi.jpg" class="img-rounded">
+						</figure>
+						<header class="col-xs-12 col-sm-6 col-md-4">	
+							<h1>Titulo de Anuncio</h1>
+						</header>
+						<div class="row">
+							<div class="col-xs-6 col-sm-3 col-md-3">
+								<label for="precio">Precio $</label>
+								<input type="text" name="precio" value="150,900" readonly="true" class="form-control">
+								<label for="marca">Marca</label>
+								<input type="text" name="marca" value="Audi" readonly="true" class="form-control">
+								<label for="modelo">Modelo</label>
+								<input type="text" name="modelo" value="RS 7" readonly="true" class="form-control">
+							</div>
+							
+							<div class="col-xs-6 col-sm-3 col-md-3">
+								<label for="año">Año</label>
+								<input type="text" name="año" value="2013" readonly="true" class="form-control">
+								<label for="descri">Descripcion</label>
+								<textarea name="descri" class="form-control" readonly="true">Audi 6 velocidades turbo el mas lujoso</textarea>
+							</div>
+						</div>						
+					</article>
+				</section>
+			</div>
+		</div>
+		
+		<footer class="row">
+		<div class="col-xs-12 col-sm-3 col-md-3">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="publicar.html">Publicar</a></li>
+				<li><a href="index.html">Salir</a></li>
+			</ul>
+		</div>
+		<div class="col-xs-12 col-sm-4 col-md-4">
+			<ul>
+				<li><a href="#">Nissan</a></li>
+				<li><a href="#">Chervolet</a></li>
+				<li><a href="#">Volk</a></li>
+				<li><a href="#">Toyota</a></li>
+				<li><a href="#">Honda</a></li>
+				<li><a href="#">Audi</a></li>
+				<li><a href="#">Mercedez</a></li>
+				
+			</ul>			
+		</div>
+		<div class="col-xs-12 col-sm-4 col-md-4">
+			<ul>
+				<li><a href="#">Renault</a></li>
+				<li><a href="#">Volvo</a></li>
+				<li><a href="#">Mazda</a></li>
+				<li><a href="#">Bmw</a></li>
+				<li><a href="#">Dodge</a></li>
+				<li><a href="#">Jaguar</a></li>
+				<li><a href="#">Otro</a></li>
+			</ul>
+		</div>
+		<div class="col-xs-12 col-sm-1 col-md-1" align="center">
+			<a href="index.html"><img src="imagenes/logotipo.jpg"></a>
+		</div>
+	</footer>
+
+	</div>
+</body>
+</html>

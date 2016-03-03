@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"><!--Conexion a bootstrap 3.1.0-->
+	<link rel="stylesheet" type="text/css" href="css\estilos.css">
+	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:700,400italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,900' rel='stylesheet' type='text/css'>
+	<link type="image/x-icon" href="imagenes\icon.ico" rel="icon" /> 
+	<metaname="viewport"content="width=device-width, initial-scale=1">
+	<title>Modulo-X</title>
+</head>
+<body>
+	<div id="estilocabezera"class="container-fluid">
+		<header class="row">
+			<div class="col-md-6 col-sm-6 col-xs-12">
+				<a href="index.html"><img src="imagenes/logotipo.jpg"></a>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-6">
+				<h1>Compras Conocedoras</h1>
+			</div>	
+			<div class="col-md-3 col-sm-3 col-xs-6">
+				<h3>Publicar Anuncio</h3>
+			</div>
+		</header>
+	</div>
+
+	<div class="row" >               <!--Linea para poner foto y nombre del usuario-->
+		<section class="col-xs-2 col-sm-8 col-md-8"></section>
+		<section class="col-xs-8 col-sm-2 col-md-1">
+			<a href="perfil.html"><img src="imagenes\foto.jpg" id="fotoperfil" class="img-circle" alt="imagen responsive"></a>
+		</section>
+		<section class="col-xs-12 col-sm-2 col-md-2">
+			<header>
+				<h1 class="IndieFlower">Ramon Guerrero</h1>
+			</header>
+		</section>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12" align="center">
+				<img src="imagenes/auto.jpg" class="img-rounded">
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6" align="center">
+				<label for="imagen" align="center">Sube imagen principal del Auto</label>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6" align="center">
+				<input id="imagen" type="file" class="form-control">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-12 col-sm-4 col-md-2">
+				<img src="imagenes/autoperfil.jpg" class="img-rounded">
+				<label for="imagen" align="center">+</label>
+				<input id="imagen" type="file" class="form-control">
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-2">
+				<img src="imagenes/autoperfil.jpg" class="img-rounded">
+				<label for="imagen" align="center">+</label>
+				<input id="imagen" type="file" class="form-control">
+			</div>	
+			<div class="col-xs-12 col-sm-4 col-md-2">
+				<img src="imagenes/autoperfil.jpg" class="img-rounded">
+				<label for="imagen" align="center">+</label>
+				<input id="imagen" type="file" class="form-control">
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-2">
+				<img src="imagenes/autoperfil.jpg" class="img-rounded">
+				<label for="imagen" align="center">+</label>
+				<input id="imagen" type="file" class="form-control">
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-2">
+				<img src="imagenes/autoperfil.jpg" class="img-rounded">
+				<label for="imagen" align="center">+</label>
+				<input id="imagen" type="file" class="form-control">
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-2">
+				<img src="imagenes/autoperfil.jpg" class="img-rounded">
+				<label for="imagen" align="center">+</label>
+				<input id="imagen" type="file" class="form-control">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-4">
+				<label for="titulo">Titulo</label>
+				<input type="text" id="titulo" name="titulo" class="form-control">
+
+				<label for="precio">Precio $</label>
+				<input type="money" id="precio" name="precio" class="form-control">
+			</div>
+
+			<div class="col-xs-12 col-sm-4 col-md-4">
+				<label>Marca</label>
+				<select name="Marca" class="form-control">
+					<option value="0">Elige una marca</option>
+					<option>Nissan</option>
+					<option>Chervolet</option>
+					<option>Volk</option>
+					<option>Toyota</option>
+					<option>Dodge</option>
+					<option>Honda</option>
+					<option>Audi</option>
+					<option>Bmw</option>
+					<option>Mercedez</option>
+					<option>Renault</option>
+					<option>Mazda</option>
+					<option>Volvo</option>
+					<option>Jaguar</option>
+					<option>Algun otro</option>
+				</select>
+
+				<label>Modelo</label>
+				<select name="Modelo" class="form-control">
+					<option value="0">Elige un modelo</option>
+				</select>
+			</div>
+
+			<div class="col-xs-12 col-sm-8 col-md-4">
+				<label>Año</label>
+				<select name="Año" class="form-control">
+					<option value="0" type="date">Año</option>
+					<option>1990</option>
+					<option>1991</option>
+					<option>1992</option>
+					<option>1993</option>
+					<option>1994</option>
+					<option>1995</option>
+					<option>1996</option>
+					<option>1997</option>
+					<option>1998</option>
+					<option>1999</option>
+					<option>2000</option>
+					<option>2001</option>
+					<option>2002</option>
+					<option>2003</option>
+					<option>2004</option>
+					<option>2005</option>
+					<option>2006</option>
+					<option>2007</option>
+					<option>2008</option>
+					<option>2009</option>
+					<option>2010</option>
+					<option>2011</option>
+					<option>2012</option>
+					<option>2013</option>
+					<option>2014</option>
+					<option>2015</option>
+				</select>
+				<label>Descripcion</label>
+				<textarea class="form-control" rows="10"></textarea>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12" align="center">
+				<button type="reset" class="btn btn-danger">Cancelar</button>
+				<a href="se_publico.html" class="btn btn-success">Publicar</a>
+			</div>
+		</div>
+	</div>
+	<footer class="row">
+		<div class="col-xs-12 col-sm-3 col-md-3" align="left">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="publicar.html">Publicar</a></li>
+				<li><a href="index.html">Salir</a></li>
+			</ul>
+		</div>
+		<div class="col-xs-12 col-sm-4 col-md-4" align="center">
+			<ul>
+				<li><a href="#">Nissan</a></li>
+				<li><a href="#">Chervolet</a></li>
+				<li><a href="#">Volk</a></li>
+				<li><a href="#">Toyota</a></li>
+				<li><a href="#">Honda</a></li>
+				<li><a href="#">Audi</a></li>
+				<li><a href="#">Mercedez</a></li>
+				
+			</ul>			
+		</div>
+		<div class="col-xs-12 col-sm-4 col-md-4" align="center">
+			<ul>
+				<li><a href="#">Renault</a></li>
+				<li><a href="#">Volvo</a></li>
+				<li><a href="#">Mazda</a></li>
+				<li><a href="#">Bmw</a></li>
+				<li><a href="#">Dodge</a></li>
+				<li><a href="#">Jaguar</a></li>
+				<li><a href="#">Otro</a></li>
+			</ul>
+		</div>
+		<div class="col-xs-12 col-sm-1 col-md-1" align="rigth">
+			<a href="index.html"><img src="imagenes/logotipo.jpg"></a>
+		</div>
+	</footer>
+</body>
+</html>

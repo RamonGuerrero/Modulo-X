@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"><!--Conexion a bootstrap 3.1.0-->
+	<link rel="stylesheet" type="text/css" href="css\estilos.css">
+	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:700,400italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,900' rel='stylesheet' type='text/css'>
+	<link type="image/x-icon" href="imagenes\icon.ico" rel="icon" /> 
+	<metaname="viewport"content="width=device-width, initial-scale=1">
+	<title>Modulo-X</title>
+</head>
+<body>
+
+	<div id="estilocabezera"class="container-fluid">
+	<header class="row">
+		<div class="col-md-6 col-sm-6 col-xs-12">
+			<a href="index.html"><img src="imagenes/logotipo.jpg"></a>
+		</div>
+		<div class="col-md-3 col-sm-3 col-xs-6">
+			<h1>Compras Conocedoras</h1>
+		</div>	
+		<div class="col-md-3 col-sm-3 col-xs-6">
+			<h3>Registro</h3>
+		</div>
+		
+	</header>
+	</div>
+
+	<div id="estilocuerpo" class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6">
+				<h1>Registro a las ventas de Autos</h1>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6">
+				<img src="imagenes/usuario.png" class="img-circle">
+				<label for="imagen">Sube una Imagen de Perfil</label>
+				<input id="imagen" type="file"/ class="form-control">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6">
+				<label for="nombre">Nombres de Usuario</label>
+				<input type="text" id="nombre" name="nombre" placeholder="Juan Perez" class="form-control" />
+
+				<label for="mail">Email</label>
+				<input type="email" id="mail" name="mail" placeholder="juan_perez@mail.com" class="form-control" />
+
+				<label for="Telefono">Telefono</label>
+				<input type="tel" id="Telefono" name="Telefono" placeholder="044 3311111111" class="form-control" />
+
+			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-6">
+
+				<select name="Estado" class="form-control">
+					<option value="0">Elige tu Estado de Mexico</option><br>
+				</select>
+
+				<select name="Localidad" class="form-control">
+					<option values="0">Elige una localidad de tu estado</option>
+				</select>
+
+				<label for="contraseña">Ingresa una Contraseña</label>
+				<input type="password" id"contraseña" name="contraseña" pattern="[.]{8,}" class="form-control" placeholder="ej.12345678"/>
+
+				<label for="confirmacion">Confirma tu contraseña</label>
+				<input type="password" id="confirmacion" name="confirmacion" pattern="[.]{8,}" class="form-control" placeholder="ej. 12345678"/>
+
+				<label for="descripcion">Describe como eres para vender Autos</label>
+				<input type="text" id="descripcion" name="descripcion" size="200" placeholder="Describete...?" class="form-control" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-4 col-md-3">
+				<button type="reset" class="btn btn-warning btn-xs">Cancelar</button>
+				<a href="bienvenida.html" class="btn btn-success">Registrate</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

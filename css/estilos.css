@@ -1,0 +1,134 @@
+header{
+	background-color: #FF534B;
+	margin-bottom: 15px;
+}
+body{
+	background-color: black;
+	margin-top: 1em;
+}
+img{
+	width:50%
+	height: auto;
+}
+div{
+	margin-top: 15px;
+}
+header div{
+	margin-top: 15px;
+}
+header h1{
+	margin-top: 15px;
+	font-size: 140%;
+}
+.IndieFlower{
+	font-family:'Indie Flower', cursive;
+}
+#fotoperfil{
+	float: none;
+	width: auto;
+	height: 110px;
+}
+#logotipo{
+	float: left;
+	width: 200px;
+	height: 50px;
+	margin-bottom: 15px;
+}
+.botones{
+	float: right;
+}
+.contenedorPrincipal{
+	position: absolute;
+	top: 4em;
+}
+.usuario{
+	float: right;
+	color: #001C26;
+	font-size: 80%;
+}
+.usuario img{
+	width: 40%;
+	height: auto;
+}
+.josefin{
+	font-family: 'Josefin Sans', sans-serif;
+}
+a{
+	font-family: 'Josefin Sans', sans-serif;
+}
+button{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 100%;
+	color: #132616;
+	background-color: #10919c;
+}
+aside img{
+	width: 200%;
+	height: auto;
+}
+#asideregistro{
+	float: none;
+	width: 50px;
+	height: auto;
+	border-top-width: 5px;
+	border-right-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;
+	border-top-color: #FF534B;
+	border-right-color: #FF534B;
+	border-bottom-color: #FF534B;
+	border-left-color: #FF534B;
+}
+
+#anuncios{
+	float: center;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 150%;
+	color: #011826;
+	margin-top: 15px;
+}
+article{
+	margin-bottom: 15px;
+	margin-top: 15px;
+
+}
+article img{
+	width: 100%;
+	height :auto;
+	margin-bottom: 15px;
+}
+footer{
+	margin-top: 50px;
+	margin-bottom: 15px;
+	width: 40%;
+	height: auto;
+	font-family: 'Josefin Sans', sans-serif;
+}
+#estilocabezera{
+	font-family: 'Josefin Sans', sans-serif;
+	color: #011826;
+}
+#estilocuerpo{
+	font-family: 'Maven Pro', sans-serif;
+	color: #AABFB3;
+}
+
+.marguen{
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+h1{
+	font-family: 'Maven Pro', sans-serif;
+	color: #243F77;
+}
+.final{
+	margin-bottom: 30px;
+}
+.grande{
+	font-family: 'Indie Flower', cursive;
+	font-size: 200%;
+}
+.imggrande{
+	width: 100%;
+	height:auto;
+}

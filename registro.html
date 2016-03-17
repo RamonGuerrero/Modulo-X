@@ -34,50 +34,70 @@
 				<h1>Registro a las ventas de Autos</h1>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-6">
-				<img src="imagenes/usuario.png" class="img-circle">
-				<label for="imagen">Sube una Imagen de Perfil</label>
-				<input id="imagen" type="file"/ class="form-control">
+				<div class="form-group">
+					<img src="imagenes/usuario.png" class="img-circle">
+					<label for="imagen">Sube una Imagen de Perfil</label>
+					<input id="imagen" type="file"/ class="form-control">
+				</div>
 			</div>
 		</div>
-		<div class="row">
+
+		<form>
+			<div class="row">
 			<div class="col-xs-12 col-sm-6 col-md-6">
-				<label for="nombre">Nombres de Usuario</label>
-				<input type="text" id="nombre" name="nombre" placeholder="Juan Perez" class="form-control" />
-
-				<label for="mail">Email</label>
-				<input type="email" id="mail" name="mail" placeholder="juan_perez@mail.com" class="form-control" />
-
-				<label for="Telefono">Telefono</label>
-				<input type="tel" id="Telefono" name="Telefono" placeholder="044 3311111111" class="form-control" />
-
+				<div class="form-group">
+					<label for="nombre">Nombres de Usuario</label>
+					<input type="text" id="nombre" name="nombre" placeholder="Juan Perez" class="form-control" />
+				</div>
+				<div class="form-group">
+					<label for="mail">Email</label>
+					<input type="email" id="mail" name="mail" placeholder="juan_perez@mail.com" class="form-control" />
+				</div>
+				<div class="form-group">
+					<label for="Telefono">Telefono</label>
+					<input type="tel" id="Telefono" name="Telefono" placeholder="044 3311111111" class="form-control" />
+				</div>
+				
 			</div>
 
 			<div class="col-xs-12 col-sm-6 col-md-6">
+				<div class="form-group">
+					<select name="Estado" class="form-control">
+						<option value="0">Elige tu Estado de Mexico</option><br>
+					</select>
+				</div>
+				
+				<div class="form-group">
+					<select name="Localidad" class="form-control">
+						<option value="0">Elige una localidad de tu estado</option>
+					</select>
+				</div>
+				
+				<div class="form-group">
+					<label for="contraseña">Ingresa una Contraseña</label>
+					<input type="password" id"contraseña" name="contraseña" pattern="[.]{8,}" class="form-control" placeholder="ej.12345678"/>
+				</div>
+				<div class="form-group">
+					<label for="confirmacion">Confirma tu contraseña</label>
+					<input type="password" id="confirmacion" name="confirmacion" pattern="[.]{8,}" class="form-control" placeholder="ej. 12345678"/>
+				</div>
 
-				<select name="Estado" class="form-control">
-					<option value="0">Elige tu Estado de Mexico</option><br>
-				</select>
-
-				<select name="Localidad" class="form-control">
-					<option values="0">Elige una localidad de tu estado</option>
-				</select>
-
-				<label for="contraseña">Ingresa una Contraseña</label>
-				<input type="password" id"contraseña" name="contraseña" pattern="[.]{8,}" class="form-control" placeholder="ej.12345678"/>
-
-				<label for="confirmacion">Confirma tu contraseña</label>
-				<input type="password" id="confirmacion" name="confirmacion" pattern="[.]{8,}" class="form-control" placeholder="ej. 12345678"/>
-
-				<label for="descripcion">Describe como eres para vender Autos</label>
-				<input type="text" id="descripcion" name="descripcion" size="200" placeholder="Describete...?" class="form-control" />
+				<div class="form-group">
+					<label for="descripcion">Describe como eres para vender Autos</label>
+					<input type="text" id="descripcion" name="descripcion" size="200" placeholder="Describete...?" class="form-control" />
+				</div>
+				
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-xs-12 col-sm-4 col-md-3">
-				<button type="reset" class="btn btn-warning btn-xs">Cancelar</button>
-				<a href="bienvenida.html" class="btn btn-success">Registrate</a>
+				<div class="form-group">
+					<button type="reset" class="btn btn-warning btn-xs">Cancelar</button>
+					<a href="bienvenida.html" class="btn btn-success">Registrate</a>
+				</div>
 			</div>
 		</div>
+		</form>
 	</div>
 </body>
 </html>
